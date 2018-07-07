@@ -1,0 +1,144 @@
+/* RESET */
+html, body, address, footer, blockquote, dl, pre,  button, del, ins, map, object, abbr, acronym, b, bdo, big, cite, code, dfn, i, kbd, q, samp, small, sub, sup, tt, var, legend, fieldset  { font-family: 'Open Sans', sans-serif; color:#444; line-height:170%; font-weight : 400; font-size:100%; margin:0; padding:0; -webkit-font-smoothing: antialiased;  }
+
+a {
+  color: #74b9ff;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited,
+a:focus {
+  text-decoration: none;
+  outline: 0 none;
+}
+
+a img {
+  border: 0 none;
+}
+
+h1 {
+  font-size: 320%;
+  font-family: 'Oleo Script', cursive;
+}
+
+h2 {
+  font-size: 250%;
+  font-family: 'Oleo Script', cursive;
+  text-align: center;
+}
+
+h2:after {
+  content: '';
+  display: block;
+  width: 10%;
+  padding-bottom: 40px;
+  border-bottom: 3px solid #48dbfb;
+  margin: 0 auto;
+}
+
+
+/* Images */
+header img {
+  max-width: 100%;
+  margin-top: 30px;
+}
+
+article img {
+  max-width: 100%;
+  margin-top: 40px;
+}
+
+.smiley {
+  width: 23px !important;
+  height: auto;
+  margin-top: 0 !important;
+}
+
+.logo {
+  background: #48dbfb;
+  width: 80px;
+  height: 80px;
+  display: block;
+  text-align: center;
+  border-radius: 100%;
+  margin: 0 auto;
+}
+
+header {
+  text-align: center;
+  margin: 50px 0;
+}
+
+header i {
+  font-size: 300%;
+  color: #fff;
+}
+
+article,
+figure {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+figcaption {
+  display: block;
+  text-align: center;
+  padding: 20px;
+  color: #48dbfb
+}
+
+footer {
+  text-align: center;
+  padding: 70px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+}
+
+footer li {
+  margin: 0 30px 0 0;
+  padding: 0;
+  list-style-type: none;
+  display: inline;
+  font-size: 200%;
+}
+
+footer li:hover i {
+  color: #48dbfb;
+  transition: .2s ease-in-out;
+}
+
+footer li:last-of-type {
+  margin: 0;
+}
+
+@media screen and (max-width:768px) {
+  h1 {
+    font-size: 200%;
+  }
+  h2 {
+    font-size: 160%;
+  }
+  h2:after {
+    content: '';
+    display: block;
+    width: 20%;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #48dbfb;
+    margin: 0 auto;
+  }
+  article {
+    margin: 0 30px;
+  }
+}
+
